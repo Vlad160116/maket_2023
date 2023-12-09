@@ -1,0 +1,525 @@
+body {
+  margin: 0;
+}
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+.picture {
+  width: 186px;
+  height: 50px;
+  margin-left: 135px;
+  margin-top: 25px;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  margin-left: 105px;
+  margin-top: 25px;
+  color: #99a2aa;
+}
+.menu a {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.panel {
+  width: 100vw;
+  height: 550px;
+  background: #fec524;
+}
+.item-content {
+  width: 570px;
+  height: 230px;
+  margin-left: 135px;
+  padding-top: 20px;
+  font-size: 25px;
+}
+.item-content h1 {
+  color: #fff;
+}
+form {
+  margin-top: 175px;
+}
+input {
+  width: 570px;
+  height: 72px;
+  color: white;
+}
+.button {
+  /* margin-top: 30px;
+  margin-left: 30px; */
+  width: 270px;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+}
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 570px;
+  height: 80px;
+}
+.content {
+  width: 100vw;
+  height: 800px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: row;
+}
+.services {
+  width: 400px;
+  height: 630px;
+  padding-top: 100px;
+  margin-left: 120px;
+}
+.services h1 {
+  color: #0e2f4b;
+}
+.services p {
+  color: #0e2f4b;
+}
+.delivery1 {
+  padding-top: 50px;
+  margin-left: 120px;
+  color: #0e2f4b;
+  width: 370px;
+}
+.delivery1_1 {
+  padding-top: 50px;
+  /* margin-left: 120px;
+  color: #0e2f4b; */
+}
+.delivery1_2 {
+  padding-top: 50px;
+  /* margin-left: 120px;
+  color: #0e2f4b; */
+}
+.delivery1_3 {
+  padding-top: 50px;
+  /* margin-left: 120px;
+  color: #0e2f4b; */
+}
+.delivery2 {
+  padding-top: 50px;
+  margin-left: 120px;
+  color: #0e2f4b;
+  width: 370px;
+}
+.delivery2_1 {
+  padding-top: 50px;
+  /* margin-left: 120px;
+  color: #0e2f4b; */
+}
+.delivery2_2 {
+  padding-top: 50px;
+  /* margin-left: 120px;
+  color: #0e2f4b; */
+}
+.delivery2_3 {
+  padding-top: 50px;
+  /* margin-left: 120px;
+  color: #0e2f4b; */
+}
+.export-code-block {
+  width: 100vw;
+  height: 660px;
+  background: #042c4b;
+}
+.export-code-block-content {
+  width: 700px;
+  height: 390px;
+  background: #042c4b;
+  padding-top: 120px;
+  margin-left: 135px;
+}
+.export-code-block-content h1 {
+  color: #ffff;
+}
+.export-code-block-content p {
+  color: #99a2aa;
+}
+.export-code-block-content button {
+  width: 305px;
+  height: 80px;
+  border-radius: 10px;
+  background: #fdc13d;
+  margin-left: 0;
+}
+.services-block {
+  width: 100vw;
+  height: 880px;
+  background: #f8f8f8;
+}
+.services-block1 {
+  padding-top: 100px;
+}
+.tabpanel {
+  width: 1170px;
+  height: 220px;
+  border-radius: 10px;
+  background: #fdc13d;
+
+  margin-left: 135px;
+}
+.tabpnel_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0e2f4b;
+  font-size: 24px;
+  padding-top: 52px;
+}
+.tabpnel_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0e2f4b;
+}
+.tabpanel a {
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+}
+.finance {
+  margin-top: 120px;
+  margin-left: 135px;
+  color: #0e2f4b;
+}
+.transfers {
+  display: flex;
+  flex-direction: row;
+}
+.international_transfers {
+  margin-left: 100px;
+}
+.insurance {
+  margin-left: 100px;
+}
+.zip-code-block {
+  width: 100vw;
+  height: 635px;
+  background: #0e2f4b;
+}
+.col-xl-12 {
+  width: 1200px;
+  height: 365px;
+  margin-left: 135px;
+  padding-top: 135px;
+  color: #f8f8f8;
+}
+.col-xl-12_content {
+  display: flex;
+  flex-direction: row;
+  /* margin-top: 100px; */
+}
+.col-xl-12_content input {
+  width: 500px;
+  height: 80px;
+  border-radius: 10px;
+  background: #fff;
+  margin-top: 100px;
+}
+.col-xl-12_content button {
+  width: 250px;
+  height: 80px;
+  border-radius: 10px;
+  background: #fdc13d;
+  margin-top: 100px;
+}
+
+.middle-block {
+  width: 100vw;
+  height: 1300px;
+  background-color: #f8f8f8;
+}
+.container_general {
+  padding-top: 100px;
+  margin-left: 135px;
+}
+.together {
+  display: flex;
+  flex-direction: row;
+}
+.container1_1 {
+  /* display: flex;
+  flex-direction: row; */
+  background-color: #fff;
+  width: 570px;
+  height: 250px;
+}
+.container1_2 {
+  display: flex;
+  flex-direction: row;
+}
+.container1_3 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.container1_1 p {
+  margin-left: 30px;
+}
+.text1 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.text1 p {
+  color: #99a2aa;
+  font-size: 14px;
+}
+
+.container2_1 {
+  margin-top: 30px;
+  /* display: flex;
+  flex-direction: row; */
+  background-color: #fff;
+  width: 570px;
+  height: 250px;
+}
+.container2_2 {
+  display: flex;
+  flex-direction: row;
+}
+.container2_3 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.container2_1 p {
+  margin-left: 30px;
+}
+.text2 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.text2 p {
+  color: #99a2aa;
+  font-size: 14px;
+}
+.together2 {
+  margin-left: 30px;
+}
+.container3_1 {
+  /* display: flex;
+  flex-direction: row; */
+  background-color: #fff;
+  width: 570px;
+  height: 250px;
+}
+.container3_2 {
+  display: flex;
+  flex-direction: row;
+}
+.container3_3 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.container3_1 p {
+  margin-left: 30px;
+}
+.text3 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.text3 p {
+  color: #99a2aa;
+  font-size: 14px;
+}
+
+.container4_1 {
+  margin-top: 30px;
+  /* display: flex;
+  flex-direction: row; */
+  background-color: #fff;
+  width: 570px;
+  height: 250px;
+}
+.container4_2 {
+  display: flex;
+  flex-direction: row;
+}
+.container4_3 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.container4_1 p {
+  margin-left: 30px;
+}
+.text4 {
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.text4 p {
+  color: #99a2aa;
+  font-size: 14px;
+}
+.container0 h1 {
+  margin-top: 100px;
+}
+
+.bottom_block {
+  display: flex;
+  flex-direction: row;
+}
+
+.departure {
+  width: 370px;
+  height: 92px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #99a2aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.contract {
+  width: 370px;
+  height: 92px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #99a2aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.bottom_block2 {
+  margin-left: 30px;
+}
+.export {
+  width: 370px;
+  height: 92px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #99a2aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.integration {
+  width: 370px;
+  height: 92px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #99a2aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.bottom_block3 {
+  margin-left: 30px;
+}
+
+.software {
+  width: 370px;
+  height: 92px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #99a2aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+.personal_office {
+  width: 370px;
+  height: 92px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #99a2aa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.branches-block {
+  width: 100vw;
+  height: 500px;
+  background-color: #fec524;
+}
+.vector {
+  margin-left: 135px;
+  padding-top: 90px;
+}
+.vector h1 {
+  color: #fff;
+  /* font-size: 48px; */
+}
+.vector p {
+  color: #0e2f4b;
+  padding-top: 35px;
+  /* font-size: 48px; */
+}
+.vector b {
+  color: #0e2f4b;
+  padding-top: 27px;
+  padding-top: 15px;
+}
+.image2 {
+  padding-top: 15px;
+}
+.vector p {
+  color: #0e2f4b;
+  padding-top: 35px;
+  /* font-size: 48px; */
+}
+.footer {
+  width: 100vw;
+  height: 789px;
+  background-color: #042c4b;
+}
+.footer1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 135px;
+  padding-top: 100px;
+  /* justify-content: space-around; */
+}
+.information h3 {
+  color: #fff;
+}
+.information p {
+  color: #99a2aa;
+}
+.postal_services {
+  margin-left: 100px;
+}
+.postal_services h3 {
+  color: #fff;
+}
+.postal_services p {
+  color: #99a2aa;
+}
+.financial_services {
+  margin-left: 100px;
+}
+.financial_services h3 {
+  color: #fff;
+}
+.financial_services p {
+  color: #99a2aa;
+}
+.another {
+  margin-left: 100px;
+}
+.another h3 {
+  color: #fff;
+}
+.another p {
+  color: #99a2aa;
+}
+hr {
+  margin-left: 135px;
+  margin-top: 50px;
+  margin-right: 135px;
+}
